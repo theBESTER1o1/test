@@ -1,6 +1,9 @@
-
-export default function Home() {
-    return (
-<h1>Contact me</h1>
-    )
+const ContactMe = () => {
+  return (
+    <section>
+      <h1>Contact me</h1>
+    </section>
+  )
 }
+
+export default ContactMe
