@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
@@ -7,17 +7,15 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
+          src="/yellow_stall_short.png"
+          alt="Test"
           width={180}
-          height={38}
+          height={180}
           priority
         />
         <ol>
-          <li>
-            You can get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
+          <p>Welcome to Adam's coding challenge 2025!</p>
+          <p>Ready to begin?</p>
         </ol>
 
         <div className={styles.ctas}>
@@ -86,5 +84,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
